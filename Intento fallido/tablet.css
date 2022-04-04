@@ -1,0 +1,26 @@
+@media (min-width: 600px) {
+    .aside-container {
+        width: 20vw;
+        height: 89vh;
+    }
+    .main-container {
+        width: 80vw;
+        height: 89vh;
+    }
+
+    .items-container {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-container__items {
+        margin-left: 1rem ;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        width: 35vw;
+    }
+
+} 

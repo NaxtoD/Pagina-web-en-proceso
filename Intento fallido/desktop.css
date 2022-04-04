@@ -1,0 +1,14 @@
+@media (min-width: 800px) {
+    .aside-container {
+        width: 15vw;
+    }
+    .main-container {
+        width: 85vw;
+    }
+
+    .items-container {
+        flex-direction: row;
+        justify-content: space-evenly ;
+    }
+    
+}
