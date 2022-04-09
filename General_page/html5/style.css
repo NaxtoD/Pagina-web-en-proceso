@@ -19,3 +19,32 @@ header {
     background-color: #1F1F1F;
 }
 
+
+main { 
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    padding: 70px 0;
+    background-color: #00147C;
+}
+.notebook-container {
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+.notebook__spine-container {
+    width: 15%;
+    height: 100%;
+    background-color: #525252;
+    height: 150px;
+}
+.notebook__page-container {
+    width: 85%;
+    height: auto;
+    background-color: #c4c4c4;
+    height: 150px;
+}
+
+
+
