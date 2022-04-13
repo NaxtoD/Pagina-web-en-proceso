@@ -126,6 +126,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 90%;
+    padding: 4px;
     max-width: 300px;
     background-color: #B9C0FF;
     margin: 10px auto;
