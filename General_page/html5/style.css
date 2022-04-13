@@ -26,8 +26,16 @@ header {
     margin: 0 auto;
 }
 .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     height: 64px;
+
+}
+.icon-container img {
+    width: 40px;
+    height: 40px;
 }
 .header__principal-section-container .principal-title-container {
     display: flex;
@@ -121,11 +129,12 @@ main {
     height: 29px;
     background-color: #B9C0FF;
     margin: 10px auto;
+    border-radius: 4px;
 }
 .principal-contents__items div {
     width: 0;
     max-width: 29px;
-    height: 0;
+    height: auto;
     border-left: 18px solid blue;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
@@ -141,6 +150,7 @@ main {
     text-decoration: none;
     color: #0015CE;
     font-weight: bold;
+    height: 100%;
 }
 
 
@@ -148,6 +158,7 @@ footer {
     display: flex;
     width: 100%;
     height: 100px;
+    padding: 3px;
     background-color: #1F1F1F;
 }
 
